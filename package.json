@@ -1,0 +1,46 @@
+{
+  "name": "react-native-timer-countdown",
+  "version": "2.0.3",
+  "description": "A simple customizable countdown component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "node_modules/.bin/tsc --noEmit",
+    "prettier": "prettier --write '**/*.{ts,tsx,js}' --config .prettierrc",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "ci": "npm run type-check && npm run lint && npm run prettier",
+    "build": "npm run ci && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avid21/react-native-timer-countdown.git"
+  },
+  "keywords": [
+    "countdown",
+    "react-native",
+    "timer"
+  ],
+  "author": "Noel Yoo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avid21/react-native-timer-countdown/issues"
+  },
+  "homepage": "https://github.com/avid21/react-native-timer-countdown#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.49",
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.49",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.49",
+    "@babel/preset-typescript": "^7.0.0-beta.49",
+    "@types/node": "^10.5.2",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "16.0.3",
+    "@types/react-native": "^0.56.4",
+    "prettier": "1.13.7",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^2.9.2"
+  }
+}
